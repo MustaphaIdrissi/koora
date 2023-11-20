@@ -1,1770 +1,2182 @@
 {
-    "filters": {
-        "dateFrom": "2023-02-05",
-        "dateTo": "2023-02-06",
-        "permission": "TIER_ONE"
-    },
-    "resultSet": {
-        "count": 27,
-        "competitions": "DED,SA,FL1,PD,PL,BL1,PPL",
-        "first": "2023-02-05",
-        "last": "2023-02-05",
-        "played": 0
-    },
-    "matches": [
+    "count": 272,
+    "filters": {},
+    "areas": [
         {
-            "area": {
-                "id": 2163,
-                "name": "Netherlands",
-                "code": "NLD",
-                "flag": "https://crests.football-data.org/8601.svg"
-            },
-            "competition": {
-                "id": 2003,
-                "name": "Eredivisie",
-                "code": "DED",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/ED.png"
-            },
-            "season": {
-                "id": 1494,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 415828,
-            "utcDate": "2023-02-05T11:15:00Z",
-            "status": "IN_PLAY",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T14:03:25Z",
-            "homeTeam": {
-                "id": 1909,
-                "name": "SC Cambuur-Leeuwarden",
-                "shortName": "Cambuur",
-                "tla": "CAM",
-                "crest": "https://crests.football-data.org/1909.png"
-            },
-            "awayTeam": {
-                "id": 678,
-                "name": "AFC Ajax",
-                "shortName": "Ajax",
-                "tla": "AJA",
-                "crest": "https://crests.football-data.org/678.png"
-            },
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 0,
-                    "away": 4
-                },
-                "halfTime": {
-                    "home": 0,
-                    "away": 2
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 56910,
-                    "name": "Martin van den Kerkhof",
-                    "type": "REFEREE",
-                    "nationality": "Netherlands"
-                }
-            ]
+            "id": 2000,
+            "name": "Afghanistan",
+            "countryCode": "AFG",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
         },
         {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 1505,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 21,
-                "winner": null
-            },
-            "id": 418705,
-            "utcDate": "2023-02-05T11:30:00Z",
-            "status": "IN_PLAY",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T14:03:25Z",
-            "homeTeam": {
-                "id": 488,
-                "name": "Spezia Calcio",
-                "shortName": "Spezia Calcio",
-                "tla": "SPE",
-                "crest": "https://crests.football-data.org/488.svg"
-            },
-            "awayTeam": {
-                "id": 113,
-                "name": "SSC Napoli",
-                "shortName": "Napoli",
-                "tla": "NAP",
-                "crest": "https://crests.football-data.org/113.svg"
-            },
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 0,
-                    "away": 3
-                },
-                "halfTime": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11060,
-                    "name": "Marco Di Bello",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
+            "id": 2001,
+            "name": "Africa",
+            "countryCode": "AFR",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417056,
-            "utcDate": "2023-02-05T12:00:00Z",
-            "status": "IN_PLAY",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T14:03:25Z",
-            "homeTeam": {
-                "id": 541,
-                "name": "Clermont Foot 63",
-                "shortName": "Clermont Foot",
-                "tla": "CLF",
-                "crest": "https://crests.football-data.org/541.svg"
-            },
-            "awayTeam": {
-                "id": 548,
-                "name": "AS Monaco FC",
-                "shortName": "Monaco",
-                "tla": "ASM",
-                "crest": "https://crests.football-data.org/548.png"
-            },
-            "score": {
-                "winner": "AWAY_TEAM",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 0,
-                    "away": 2
-                },
-                "halfTime": {
-                    "home": 0,
-                    "away": 2
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 64781,
-                    "name": "Marc Bollengier",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2002,
+            "name": "Albania",
+            "countryCode": "ALB",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2224,
-                "name": "Spain",
-                "code": "ESP",
-                "flag": "https://crests.football-data.org/760.svg"
-            },
-            "competition": {
-                "id": 2014,
-                "name": "Primera Division",
-                "code": "PD",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PD.png"
-            },
-            "season": {
-                "id": 1504,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 419098,
-            "utcDate": "2023-02-05T13:00:00Z",
-            "status": "IN_PLAY",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T14:03:20Z",
-            "homeTeam": {
-                "id": 89,
-                "name": "RCD Mallorca",
-                "shortName": "Mallorca",
-                "tla": "MAL",
-                "crest": "https://crests.football-data.org/89.png"
-            },
-            "awayTeam": {
-                "id": 86,
-                "name": "Real Madrid CF",
-                "shortName": "Real Madrid",
-                "tla": "RMA",
-                "crest": "https://crests.football-data.org/86.png"
-            },
-            "score": {
-                "winner": "DRAW",
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": 0,
-                    "away": 0
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 15625,
-                    "name": "Alejandro Hernández",
-                    "type": "REFEREE",
-                    "nationality": "Spain"
-                }
-            ]
+            "id": 2004,
+            "name": "Algeria",
+            "countryCode": "ALG",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
         },
         {
-            "area": {
-                "id": 2163,
-                "name": "Netherlands",
-                "code": "NLD",
-                "flag": "https://crests.football-data.org/8601.svg"
-            },
-            "competition": {
-                "id": 2003,
-                "name": "Eredivisie",
-                "code": "DED",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/ED.png"
-            },
-            "season": {
-                "id": 1494,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 415827,
-            "utcDate": "2023-02-05T13:30:00Z",
-            "status": "TIMED",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T11:30:27Z",
-            "homeTeam": {
-                "id": 675,
-                "name": "Feyenoord Rotterdam",
-                "shortName": "Feyenoord",
-                "tla": "FEY",
-                "crest": "https://crests.football-data.org/675.png"
-            },
-            "awayTeam": {
-                "id": 674,
-                "name": "PSV",
-                "shortName": "PSV",
-                "tla": "PSV",
-                "crest": "https://crests.football-data.org/674.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 43899,
-                    "name": "Danny Makkelie",
-                    "type": "REFEREE",
-                    "nationality": "Netherlands"
-                }
-            ]
+            "id": 2005,
+            "name": "American Samoa",
+            "countryCode": "ASM",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
         },
         {
-            "area": {
-                "id": 2163,
-                "name": "Netherlands",
-                "code": "NLD",
-                "flag": "https://crests.football-data.org/8601.svg"
-            },
-            "competition": {
-                "id": 2003,
-                "name": "Eredivisie",
-                "code": "DED",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/ED.png"
-            },
-            "season": {
-                "id": 1494,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 415826,
-            "utcDate": "2023-02-05T13:30:00Z",
-            "status": "TIMED",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T13:54:03Z",
-            "homeTeam": {
-                "id": 718,
-                "name": "Go Ahead Eagles",
-                "shortName": "Go Ahead",
-                "tla": "GOA",
-                "crest": "https://crests.football-data.org/718.png"
-            },
-            "awayTeam": {
-                "id": 1915,
-                "name": "NEC",
-                "shortName": "NEC",
-                "tla": "NEC",
-                "crest": "https://crests.football-data.org/1915.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 56917,
-                    "name": "Erwin Blank",
-                    "type": "REFEREE",
-                    "nationality": "Netherlands"
-                }
-            ]
+            "id": 2006,
+            "name": "Andorra",
+            "countryCode": "AND",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2072,
-                "name": "England",
-                "code": "ENG",
-                "flag": "https://crests.football-data.org/770.svg"
-            },
-            "competition": {
-                "id": 2021,
-                "name": "Premier League",
-                "code": "PL",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PL.png"
-            },
-            "season": {
-                "id": 1490,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-28",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 416167,
-            "utcDate": "2023-02-05T14:00:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:00:15Z",
-            "homeTeam": {
-                "id": 351,
-                "name": "Nottingham Forest FC",
-                "shortName": "Nottingham",
-                "tla": "NOT",
-                "crest": "https://crests.football-data.org/351.png"
-            },
-            "awayTeam": {
-                "id": 341,
-                "name": "Leeds United FC",
-                "shortName": "Leeds United",
-                "tla": "LEE",
-                "crest": "https://crests.football-data.org/341.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11446,
-                    "name": "Robert Jones",
-                    "type": "REFEREE",
-                    "nationality": "England"
-                }
-            ]
+            "id": 2007,
+            "name": "Angola",
+            "countryCode": "ANG",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417057,
-            "utcDate": "2023-02-05T14:00:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:00:15Z",
-            "homeTeam": {
-                "id": 519,
-                "name": "AJ Auxerre",
-                "shortName": "Auxerre",
-                "tla": "AJA",
-                "crest": "https://crests.football-data.org/519.png"
-            },
-            "awayTeam": {
-                "id": 547,
-                "name": "Stade de Reims",
-                "shortName": "Stade de Reims",
-                "tla": "SDR",
-                "crest": "https://crests.football-data.org/547.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 57065,
-                    "name": "Pierre Gaillouste",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2008,
+            "name": "Anguilla",
+            "countryCode": "AIA",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417052,
-            "utcDate": "2023-02-05T14:00:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:00:15Z",
-            "homeTeam": {
-                "id": 576,
-                "name": "RC Strasbourg Alsace",
-                "shortName": "Strasbourg",
-                "tla": "RC ",
-                "crest": "https://crests.football-data.org/576.png"
-            },
-            "awayTeam": {
-                "id": 518,
-                "name": "Montpellier HSC",
-                "shortName": "Montpellier",
-                "tla": "MON",
-                "crest": "https://crests.football-data.org/518.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 25786,
-                    "name": "Stéphanie Frappart",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2009,
+            "name": "Antigua and Barbuda",
+            "countryCode": "ATG",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417055,
-            "utcDate": "2023-02-05T14:00:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:00:15Z",
-            "homeTeam": {
-                "id": 525,
-                "name": "FC Lorient",
-                "shortName": "Lorient",
-                "tla": "FCL",
-                "crest": "https://crests.football-data.org/525.png"
-            },
-            "awayTeam": {
-                "id": 532,
-                "name": "Angers SCO",
-                "shortName": "Angers SCO",
-                "tla": "ANG",
-                "crest": "https://crests.football-data.org/532.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 57042,
-                    "name": "Willy Delajod",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2010,
+            "name": "Arameans Suryoye",
+            "countryCode": "ARS",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
         },
         {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 1505,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 21,
-                "winner": null
-            },
-            "id": 418704,
-            "utcDate": "2023-02-05T14:00:00Z",
-            "status": "TIMED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:00:15Z",
-            "homeTeam": {
-                "id": 586,
-                "name": "Torino FC",
-                "shortName": "Torino",
-                "tla": "TOR",
-                "crest": "https://crests.football-data.org/586.svg"
-            },
-            "awayTeam": {
-                "id": 115,
-                "name": "Udinese Calcio",
-                "shortName": "Udinese",
-                "tla": "UDI",
-                "crest": "https://crests.football-data.org/115.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 57794,
-                    "name": "Alessandro Prontera",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
+            "id": 2011,
+            "name": "Argentina",
+            "countryCode": "ARG",
+            "flag": "https://crests.football-data.org/762.png",
+            "parentAreaId": 2220,
+            "parentArea": "South America"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417058,
-            "utcDate": "2023-02-05T14:00:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:00:15Z",
-            "homeTeam": {
-                "id": 510,
-                "name": "AC Ajaccio",
-                "shortName": "AC Ajaccio",
-                "tla": "ACA",
-                "crest": "https://crests.football-data.org/510.png"
-            },
-            "awayTeam": {
-                "id": 543,
-                "name": "FC Nantes",
-                "shortName": "Nantes",
-                "tla": "NAN",
-                "crest": "https://crests.football-data.org/543.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 43886,
-                    "name": "Ruddy Buquet",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2012,
+            "name": "Armenia",
+            "countryCode": "ARM",
+            "flag": "https://crests.football-data.org/1970.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2088,
-                "name": "Germany",
-                "code": "DEU",
-                "flag": "https://crests.football-data.org/759.svg"
-            },
-            "competition": {
-                "id": 2002,
-                "name": "Bundesliga",
-                "code": "BL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/BL1.png"
-            },
-            "season": {
-                "id": 1495,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-27",
-                "currentMatchday": 19,
-                "winner": null
-            },
-            "id": 416529,
-            "utcDate": "2023-02-05T14:30:00Z",
-            "status": "TIMED",
-            "matchday": 19,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T12:30:23Z",
-            "homeTeam": {
-                "id": 10,
-                "name": "VfB Stuttgart",
-                "shortName": "Stuttgart",
-                "tla": "VFB",
-                "crest": "https://crests.football-data.org/10.svg"
-            },
-            "awayTeam": {
-                "id": 12,
-                "name": "SV Werder Bremen",
-                "shortName": "Bremen",
-                "tla": "SVW",
-                "crest": "https://crests.football-data.org/12.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 57532,
-                    "name": "Frank Willenborg",
-                    "type": "REFEREE",
-                    "nationality": "Germany"
-                }
-            ]
+            "id": 2013,
+            "name": "Aruba",
+            "countryCode": "ABW",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2224,
-                "name": "Spain",
-                "code": "ESP",
-                "flag": "https://crests.football-data.org/760.svg"
-            },
-            "competition": {
-                "id": 2014,
-                "name": "Primera Division",
-                "code": "PD",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PD.png"
-            },
-            "season": {
-                "id": 1504,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 419095,
-            "utcDate": "2023-02-05T15:15:00Z",
-            "status": "TIMED",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T13:15:19Z",
-            "homeTeam": {
-                "id": 298,
-                "name": "Girona FC",
-                "shortName": "Girona",
-                "tla": "GIR",
-                "crest": "https://crests.football-data.org/298.png"
-            },
-            "awayTeam": {
-                "id": 95,
-                "name": "Valencia CF",
-                "shortName": "Valencia",
-                "tla": "VAL",
-                "crest": "https://crests.football-data.org/95.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 186588,
-                    "name": "Javier Iglesias",
-                    "type": "REFEREE",
-                    "nationality": "Spain"
-                }
-            ]
+            "id": 2014,
+            "name": "Asia",
+            "countryCode": "ASI",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
         },
         {
-            "area": {
-                "id": 2187,
-                "name": "Portugal",
-                "code": "POR",
-                "flag": "https://crests.football-data.org/765.svg"
-            },
-            "competition": {
-                "id": 2017,
-                "name": "Primeira Liga",
-                "code": "PPL",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PPL.png"
-            },
-            "season": {
-                "id": 1518,
-                "startDate": "2022-08-07",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 422814,
-            "utcDate": "2023-02-05T15:30:00Z",
-            "status": "TIMED",
-            "matchday": 19,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-02T01:32:01Z",
-            "homeTeam": {
-                "id": 5613,
-                "name": "Sporting Clube de Braga",
-                "shortName": "Braga",
-                "tla": "SCB",
-                "crest": "https://crests.football-data.org/5613.png"
-            },
-            "awayTeam": {
-                "id": 5531,
-                "name": "FC Famalicão",
-                "shortName": "Famalicão",
-                "tla": "FAM",
-                "crest": "https://crests.football-data.org/5531.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": []
+            "id": 2015,
+            "name": "Australia",
+            "countryCode": "AUS",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
         },
         {
-            "area": {
-                "id": 2187,
-                "name": "Portugal",
-                "code": "POR",
-                "flag": "https://crests.football-data.org/765.svg"
-            },
-            "competition": {
-                "id": 2017,
-                "name": "Primeira Liga",
-                "code": "PPL",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PPL.png"
-            },
-            "season": {
-                "id": 1518,
-                "startDate": "2022-08-07",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 422817,
-            "utcDate": "2023-02-05T15:30:00Z",
-            "status": "TIMED",
-            "matchday": 19,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-01-30T01:32:01Z",
-            "homeTeam": {
-                "id": 1103,
-                "name": "GD Chaves",
-                "shortName": "Chaves",
-                "tla": "CHA",
-                "crest": "https://upload.wikimedia.org/wikipedia/en/0/05/G_D_Chaves.png"
-            },
-            "awayTeam": {
-                "id": 5575,
-                "name": "CS Marítimo",
-                "shortName": "Marítimo",
-                "tla": "CSM",
-                "crest": "https://crests.football-data.org/5575.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": []
+            "id": 2016,
+            "name": "Austria",
+            "countryCode": "AUT",
+            "flag": "https://crests.football-data.org/816.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2163,
-                "name": "Netherlands",
-                "code": "NLD",
-                "flag": "https://crests.football-data.org/8601.svg"
-            },
-            "competition": {
-                "id": 2003,
-                "name": "Eredivisie",
-                "code": "DED",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/ED.png"
-            },
-            "season": {
-                "id": 1494,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 415825,
-            "utcDate": "2023-02-05T15:45:00Z",
-            "status": "TIMED",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T13:45:16Z",
-            "homeTeam": {
-                "id": 677,
-                "name": "FC Groningen",
-                "shortName": "Groningen",
-                "tla": "GRO",
-                "crest": "https://crests.football-data.org/677.png"
-            },
-            "awayTeam": {
-                "id": 666,
-                "name": "FC Twente '65",
-                "shortName": "Twente",
-                "tla": "TWE",
-                "crest": "https://crests.football-data.org/666.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 15152,
-                    "name": "Pol van Boekel",
-                    "type": "REFEREE",
-                    "nationality": "Netherlands"
-                }
-            ]
+            "id": 2017,
+            "name": "Azerbaijan",
+            "countryCode": "AZE",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417051,
-            "utcDate": "2023-02-05T16:05:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-02T01:32:01Z",
-            "homeTeam": {
-                "id": 512,
-                "name": "Stade Brestois 29",
-                "shortName": "Brest",
-                "tla": "BRE",
-                "crest": "https://crests.football-data.org/512.png"
-            },
-            "awayTeam": {
-                "id": 546,
-                "name": "Racing Club de Lens",
-                "shortName": "RC Lens",
-                "tla": "RCL",
-                "crest": "https://crests.football-data.org/546.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 43926,
-                    "name": "Benoît Bastien",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2018,
+            "name": "Bahamas",
+            "countryCode": "BHS",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2072,
-                "name": "England",
-                "code": "ENG",
-                "flag": "https://crests.football-data.org/770.svg"
-            },
-            "competition": {
-                "id": 2021,
-                "name": "Premier League",
-                "code": "PL",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PL.png"
-            },
-            "season": {
-                "id": 1490,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-28",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 416166,
-            "utcDate": "2023-02-05T16:30:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-01-30T01:32:02Z",
-            "homeTeam": {
-                "id": 73,
-                "name": "Tottenham Hotspur FC",
-                "shortName": "Tottenham",
-                "tla": "TOT",
-                "crest": "https://crests.football-data.org/73.svg"
-            },
-            "awayTeam": {
-                "id": 65,
-                "name": "Manchester City FC",
-                "shortName": "Man City",
-                "tla": "MCI",
-                "crest": "https://crests.football-data.org/65.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11423,
-                    "name": "Andy Madley",
-                    "type": "REFEREE",
-                    "nationality": "England"
-                }
-            ]
+            "id": 2019,
+            "name": "Bahrain",
+            "countryCode": "BHR",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
         },
         {
-            "area": {
-                "id": 2088,
-                "name": "Germany",
-                "code": "DEU",
-                "flag": "https://crests.football-data.org/759.svg"
-            },
-            "competition": {
-                "id": 2002,
-                "name": "Bundesliga",
-                "code": "BL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/BL1.png"
-            },
-            "season": {
-                "id": 1495,
-                "startDate": "2022-08-05",
-                "endDate": "2023-05-27",
-                "currentMatchday": 19,
-                "winner": null
-            },
-            "id": 416532,
-            "utcDate": "2023-02-05T16:30:00Z",
-            "status": "TIMED",
-            "matchday": 19,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T01:32:00Z",
-            "homeTeam": {
-                "id": 11,
-                "name": "VfL Wolfsburg",
-                "shortName": "Wolfsburg",
-                "tla": "WOB",
-                "crest": "https://crests.football-data.org/11.svg"
-            },
-            "awayTeam": {
-                "id": 5,
-                "name": "FC Bayern München",
-                "shortName": "Bayern",
-                "tla": "FCB",
-                "crest": "https://crests.football-data.org/5.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 253,
-                    "name": "Harm Osmers",
-                    "type": "REFEREE",
-                    "nationality": "Germany"
-                }
-            ]
+            "id": 2020,
+            "name": "Bangladesh",
+            "countryCode": "BAN",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
         },
         {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 1505,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 21,
-                "winner": null
-            },
-            "id": 418712,
-            "utcDate": "2023-02-05T17:00:00Z",
-            "status": "TIMED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-01-30T01:32:02Z",
-            "homeTeam": {
-                "id": 99,
-                "name": "ACF Fiorentina",
-                "shortName": "Fiorentina",
-                "tla": "FIO",
-                "crest": "https://crests.football-data.org/99.svg"
-            },
-            "awayTeam": {
-                "id": 103,
-                "name": "Bologna FC 1909",
-                "shortName": "Bologna",
-                "tla": "BOL",
-                "crest": "https://crests.football-data.org/103.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11002,
-                    "name": "Luca Pairetto",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
+            "id": 2021,
+            "name": "Barbados",
+            "countryCode": "BRB",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2224,
-                "name": "Spain",
-                "code": "ESP",
-                "flag": "https://crests.football-data.org/760.svg"
-            },
-            "competition": {
-                "id": 2014,
-                "name": "Primera Division",
-                "code": "PD",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PD.png"
-            },
-            "season": {
-                "id": 1504,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 419096,
-            "utcDate": "2023-02-05T17:30:00Z",
-            "status": "TIMED",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-01-30T01:32:02Z",
-            "homeTeam": {
-                "id": 92,
-                "name": "Real Sociedad de Fútbol",
-                "shortName": "Real Sociedad",
-                "tla": "RSO",
-                "crest": "https://crests.football-data.org/92.svg"
-            },
-            "awayTeam": {
-                "id": 250,
-                "name": "Real Valladolid CF",
-                "shortName": "Valladolid",
-                "tla": "VDD",
-                "crest": "https://crests.football-data.org/250.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 56978,
-                    "name": "Pablo González",
-                    "type": "REFEREE",
-                    "nationality": "Spain"
-                }
-            ]
+            "id": 2022,
+            "name": "Belarus",
+            "countryCode": "BLR",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2187,
-                "name": "Portugal",
-                "code": "POR",
-                "flag": "https://crests.football-data.org/765.svg"
-            },
-            "competition": {
-                "id": 2017,
-                "name": "Primeira Liga",
-                "code": "PPL",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PPL.png"
-            },
-            "season": {
-                "id": 1518,
-                "startDate": "2022-08-07",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 422812,
-            "utcDate": "2023-02-05T18:00:00Z",
-            "status": "TIMED",
-            "matchday": 19,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T01:32:00Z",
-            "homeTeam": {
-                "id": 503,
-                "name": "FC Porto",
-                "shortName": "Porto",
-                "tla": "FCP",
-                "crest": "https://crests.football-data.org/503.png"
-            },
-            "awayTeam": {
-                "id": 5589,
-                "name": "FC Vizela",
-                "shortName": "Vizela",
-                "tla": "VIZ",
-                "crest": "https://crests.football-data.org/5589.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": []
+            "id": 2023,
+            "name": "Belgium",
+            "countryCode": "BEL",
+            "flag": "https://crests.football-data.org/805.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
         },
         {
-            "area": {
-                "id": 2114,
-                "name": "Italy",
-                "code": "ITA",
-                "flag": "https://crests.football-data.org/784.svg"
-            },
-            "competition": {
-                "id": 2019,
-                "name": "Serie A",
-                "code": "SA",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/SA.png"
-            },
-            "season": {
-                "id": 1505,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 21,
-                "winner": null
-            },
-            "id": 418710,
-            "utcDate": "2023-02-05T19:45:00Z",
-            "status": "TIMED",
-            "matchday": 21,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-01-30T01:32:02Z",
-            "homeTeam": {
-                "id": 108,
-                "name": "FC Internazionale Milano",
-                "shortName": "Inter",
-                "tla": "INT",
-                "crest": "https://crests.football-data.org/108.png"
-            },
-            "awayTeam": {
-                "id": 98,
-                "name": "AC Milan",
-                "shortName": "Milan",
-                "tla": "MIL",
-                "crest": "https://crests.football-data.org/98.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 11029,
-                    "name": "Davide Massa",
-                    "type": "REFEREE",
-                    "nationality": "Italy"
-                }
-            ]
+            "id": 2024,
+            "name": "Belize",
+            "countryCode": "BLZ",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2081,
-                "name": "France",
-                "code": "FRA",
-                "flag": "https://crests.football-data.org/773.svg"
-            },
-            "competition": {
-                "id": 2015,
-                "name": "Ligue 1",
-                "code": "FL1",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/FL1.png"
-            },
-            "season": {
-                "id": 1497,
-                "startDate": "2022-08-07",
-                "endDate": "2023-06-03",
-                "currentMatchday": 22,
-                "winner": null
-            },
-            "id": 417054,
-            "utcDate": "2023-02-05T19:45:00Z",
-            "status": "TIMED",
-            "matchday": 22,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T01:32:00Z",
-            "homeTeam": {
-                "id": 516,
-                "name": "Olympique de Marseille",
-                "shortName": "Marseille",
-                "tla": "MAR",
-                "crest": "https://crests.football-data.org/516.png"
-            },
-            "awayTeam": {
-                "id": 522,
-                "name": "OGC Nice",
-                "shortName": "Nice",
-                "tla": "NIC",
-                "crest": "https://crests.football-data.org/522.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 9374,
-                    "name": "Clément Turpin",
-                    "type": "REFEREE",
-                    "nationality": "France"
-                }
-            ]
+            "id": 2025,
+            "name": "Benin",
+            "countryCode": "BEN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
         },
         {
-            "area": {
-                "id": 2224,
-                "name": "Spain",
-                "code": "ESP",
-                "flag": "https://crests.football-data.org/760.svg"
-            },
-            "competition": {
-                "id": 2014,
-                "name": "Primera Division",
-                "code": "PD",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PD.png"
-            },
-            "season": {
-                "id": 1504,
-                "startDate": "2022-08-14",
-                "endDate": "2023-06-04",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 419101,
-            "utcDate": "2023-02-05T20:00:00Z",
-            "status": "TIMED",
-            "matchday": 20,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-02-05T01:32:00Z",
-            "homeTeam": {
-                "id": 81,
-                "name": "FC Barcelona",
-                "shortName": "Barça",
-                "tla": "FCB",
-                "crest": "https://crests.football-data.org/81.svg"
-            },
-            "awayTeam": {
-                "id": 559,
-                "name": "Sevilla FC",
-                "shortName": "Sevilla FC",
-                "tla": "SEV",
-                "crest": "https://crests.football-data.org/559.svg"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": [
-                {
-                    "id": 106,
-                    "name": "José Sánchez",
-                    "type": "REFEREE",
-                    "nationality": "Spain"
-                }
-            ]
+            "id": 2026,
+            "name": "Bermuda",
+            "countryCode": "BMU",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
         },
         {
-            "area": {
-                "id": 2187,
-                "name": "Portugal",
-                "code": "POR",
-                "flag": "https://crests.football-data.org/765.svg"
-            },
-            "competition": {
-                "id": 2017,
-                "name": "Primeira Liga",
-                "code": "PPL",
-                "type": "LEAGUE",
-                "emblem": "https://crests.football-data.org/PPL.png"
-            },
-            "season": {
-                "id": 1518,
-                "startDate": "2022-08-07",
-                "endDate": "2023-05-28",
-                "currentMatchday": 20,
-                "winner": null
-            },
-            "id": 422813,
-            "utcDate": "2023-02-05T20:30:00Z",
-            "status": "CANCELLED",
-            "matchday": 19,
-            "stage": "REGULAR_SEASON",
-            "group": null,
-            "lastUpdated": "2023-01-31T01:32:01Z",
-            "homeTeam": {
-                "id": 5533,
-                "name": "Gil Vicente FC",
-                "shortName": "Gil Vicente",
-                "tla": "GIL",
-                "crest": "https://crests.football-data.org/5533.png"
-            },
-            "awayTeam": {
-                "id": 712,
-                "name": "FC Arouca",
-                "shortName": "Arouca",
-                "tla": "FCA",
-                "crest": "https://crests.football-data.org/712.png"
-            },
-            "score": {
-                "winner": null,
-                "duration": "REGULAR",
-                "fullTime": {
-                    "home": null,
-                    "away": null
-                },
-                "halfTime": {
-                    "home": null,
-                    "away": null
-                }
-            },
-            "odds": {
-                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-            },
-            "referees": []
+            "id": 2027,
+            "name": "Bhutan",
+            "countryCode": "BHU",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2028,
+            "name": "Bolivia",
+            "countryCode": "BOL",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2029,
+            "name": "Bonaire",
+            "countryCode": "BON",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2030,
+            "name": "Bosnia and Herzegovina",
+            "countryCode": "BIH",
+            "flag": "https://crests.football-data.org/bosnia.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2031,
+            "name": "Botswana",
+            "countryCode": "BOT",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2032,
+            "name": "Brazil",
+            "countryCode": "BRA",
+            "flag": "https://crests.football-data.org/764.svg",
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2033,
+            "name": "British Virgin Islands",
+            "countryCode": "BVI",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2034,
+            "name": "Brunei Darussalam",
+            "countryCode": "BRU",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2035,
+            "name": "Bulgaria",
+            "countryCode": "BGR",
+            "flag": "https://crests.football-data.org/817.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2036,
+            "name": "Burkina Faso",
+            "countryCode": "BFA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2037,
+            "name": "Burundi",
+            "countryCode": "BDI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2038,
+            "name": "Cambodia",
+            "countryCode": "CAM",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2039,
+            "name": "Cameroon",
+            "countryCode": "CMR",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2040,
+            "name": "Canada",
+            "countryCode": "CAN",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2041,
+            "name": "Cape Verde Islands",
+            "countryCode": "CPV",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2042,
+            "name": "Cayman Islands",
+            "countryCode": "CYM",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2043,
+            "name": "Central African Republic",
+            "countryCode": "CTA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2044,
+            "name": "Chad",
+            "countryCode": "CHA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2045,
+            "name": "Chile",
+            "countryCode": "CHL",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2046,
+            "name": "China PR",
+            "countryCode": "CHN",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2047,
+            "name": "Chinese Taipei",
+            "countryCode": "TPE",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2048,
+            "name": "CIS",
+            "countryCode": "CIS",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2049,
+            "name": "Colombia",
+            "countryCode": "COL",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2050,
+            "name": "Comoros",
+            "countryCode": "CMO",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2051,
+            "name": "Congo",
+            "countryCode": "CGO",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2052,
+            "name": "Congo DR",
+            "countryCode": "COD",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2053,
+            "name": "Cook Islands",
+            "countryCode": "COK",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2054,
+            "name": "Corsica",
+            "countryCode": "COR",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2055,
+            "name": "Costa Rica",
+            "countryCode": "CRI",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2056,
+            "name": "Côte d’Ivoire",
+            "countryCode": "CIV",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2057,
+            "name": "Crimea",
+            "countryCode": "ARC",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2058,
+            "name": "Croatia",
+            "countryCode": "HRV",
+            "flag": "https://crests.football-data.org/799.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2059,
+            "name": "Cuba",
+            "countryCode": "CUB",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2060,
+            "name": "Curaçao",
+            "countryCode": "ANT",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2061,
+            "name": "Cyprus",
+            "countryCode": "CYP",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2062,
+            "name": "Czech Republic",
+            "countryCode": "CZE",
+            "flag": "https://crests.football-data.org/798.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2063,
+            "name": "Czechoslovakia",
+            "countryCode": "CZS",
+            "flag": "https://crests.football-data.org/798.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2064,
+            "name": "Darfur",
+            "countryCode": "DAR",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2065,
+            "name": "Denmark",
+            "countryCode": "DNK",
+            "flag": "https://crests.football-data.org/782.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2066,
+            "name": "Djibouti",
+            "countryCode": "DJI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2067,
+            "name": "Dominica",
+            "countryCode": "DMA",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2068,
+            "name": "Dominican Republic",
+            "countryCode": "DOM",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2069,
+            "name": "Ecuador",
+            "countryCode": "ECU",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2070,
+            "name": "Egypt",
+            "countryCode": "EGY",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2071,
+            "name": "El Salvador",
+            "countryCode": "SLV",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2072,
+            "name": "England",
+            "countryCode": "ENG",
+            "flag": "https://crests.football-data.org/770.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2073,
+            "name": "Equatorial Guinea",
+            "countryCode": "EQG",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2074,
+            "name": "Eritrea",
+            "countryCode": "ERI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2075,
+            "name": "Estonia",
+            "countryCode": "EST",
+            "flag": "https://crests.football-data.org/estonia.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2076,
+            "name": "Ethiopia",
+            "countryCode": "ETH",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2077,
+            "name": "Europe",
+            "countryCode": "EUR",
+            "flag": "https://crests.football-data.org/EUR.svg",
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2078,
+            "name": "Faroe Islands",
+            "countryCode": "FRO",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2079,
+            "name": "Fiji",
+            "countryCode": "FJI",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2080,
+            "name": "Finland",
+            "countryCode": "FIN",
+            "flag": "https://crests.football-data.org/1976.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2081,
+            "name": "France",
+            "countryCode": "FRA",
+            "flag": "https://crests.football-data.org/773.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2082,
+            "name": "French Guiana",
+            "countryCode": "FGU",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2083,
+            "name": "FYR Macedonia",
+            "countryCode": "MKD",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2084,
+            "name": "Gabon",
+            "countryCode": "GAB",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2085,
+            "name": "Gambia",
+            "countryCode": "GAM",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2086,
+            "name": "GDR",
+            "countryCode": "GDR",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2087,
+            "name": "Georgia",
+            "countryCode": "GEO",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2088,
+            "name": "Germany",
+            "countryCode": "DEU",
+            "flag": "https://crests.football-data.org/759.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2089,
+            "name": "Ghana",
+            "countryCode": "GHA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2090,
+            "name": "Gibraltar",
+            "countryCode": "GIB",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2091,
+            "name": "Gozo",
+            "countryCode": "GOZ",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2092,
+            "name": "Great Britain",
+            "countryCode": "GBR",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2093,
+            "name": "Greece",
+            "countryCode": "GRC",
+            "flag": "https://crests.football-data.org/775.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2094,
+            "name": "Greenland",
+            "countryCode": "GEE",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2095,
+            "name": "Grenada",
+            "countryCode": "GRD",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2096,
+            "name": "Guadeloupe",
+            "countryCode": "GDL",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2097,
+            "name": "Guam",
+            "countryCode": "GUM",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2098,
+            "name": "Guatemala",
+            "countryCode": "GTM",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2099,
+            "name": "Guernsey",
+            "countryCode": "GGY",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2100,
+            "name": "Guinea",
+            "countryCode": "GUI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2101,
+            "name": "Guinea-Bissau",
+            "countryCode": "GNB",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2102,
+            "name": "Guyana",
+            "countryCode": "GUY",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2103,
+            "name": "Haiti",
+            "countryCode": "HTI",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2104,
+            "name": "Honduras",
+            "countryCode": "HND",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2105,
+            "name": "Hong Kong",
+            "countryCode": "HKG",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2106,
+            "name": "Hungary",
+            "countryCode": "HUN",
+            "flag": "https://crests.football-data.org/827.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2107,
+            "name": "Iceland",
+            "countryCode": "ISL",
+            "flag": "https://crests.football-data.org/iceland.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2108,
+            "name": "India",
+            "countryCode": "IND",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2109,
+            "name": "Indonesia",
+            "countryCode": "IDN",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2110,
+            "name": "Iran",
+            "countryCode": "IRN",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2111,
+            "name": "Iraq",
+            "countryCode": "IRQ",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2112,
+            "name": "Isle of Man",
+            "countryCode": "IOM",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2113,
+            "name": "Israel",
+            "countryCode": "ISR",
+            "flag": "https://crests.football-data.org/israel.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2114,
+            "name": "Italy",
+            "countryCode": "ITA",
+            "flag": "https://crests.football-data.org/784.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2115,
+            "name": "Jamaica",
+            "countryCode": "JAM",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2116,
+            "name": "Japan",
+            "countryCode": "JPN",
+            "flag": "https://crests.football-data.org/JAP.svg",
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2117,
+            "name": "Jersey",
+            "countryCode": "JER",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2118,
+            "name": "Jordan",
+            "countryCode": "JOR",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2119,
+            "name": "Kazakhstan",
+            "countryCode": "KAZ",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2120,
+            "name": "Kenya",
+            "countryCode": "KEN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2121,
+            "name": "Kiribati",
+            "countryCode": "KIR",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2122,
+            "name": "Korea DPR",
+            "countryCode": "PRK",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2123,
+            "name": "Korea Republic",
+            "countryCode": "KOR",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2124,
+            "name": "Kosovo",
+            "countryCode": "KSV",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2125,
+            "name": "Kurdistan",
+            "countryCode": "KUR",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2126,
+            "name": "Kuwait",
+            "countryCode": "KUW",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2127,
+            "name": "Kyrgyzstan",
+            "countryCode": "KGZ",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2128,
+            "name": "Laos",
+            "countryCode": "LAO",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2129,
+            "name": "Latvia",
+            "countryCode": "LVA",
+            "flag": "https://crests.football-data.org/latvia.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2130,
+            "name": "Lebanon",
+            "countryCode": "LIB",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2131,
+            "name": "Lesotho",
+            "countryCode": "LES",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2132,
+            "name": "Liberia",
+            "countryCode": "LBR",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2133,
+            "name": "Libya",
+            "countryCode": "LBY",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2134,
+            "name": "Liechtenstein",
+            "countryCode": "LIE",
+            "flag": "https://crests.football-data.org/1982.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2135,
+            "name": "Lithuania",
+            "countryCode": "LTU",
+            "flag": "https://crests.football-data.org/1983.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2136,
+            "name": "Luxembourg",
+            "countryCode": "LUX",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2137,
+            "name": "Macao",
+            "countryCode": "MAC",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2138,
+            "name": "Madagascar",
+            "countryCode": "MAD",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2139,
+            "name": "Malawi",
+            "countryCode": "MWI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2140,
+            "name": "Malaysia",
+            "countryCode": "MAS",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2141,
+            "name": "Maldives",
+            "countryCode": "MDV",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2142,
+            "name": "Mali",
+            "countryCode": "MLI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2143,
+            "name": "Malta",
+            "countryCode": "MLT",
+            "flag": "https://crests.football-data.org/malta.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2144,
+            "name": "Marshall Islands",
+            "countryCode": "MSI",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2145,
+            "name": "Martinique",
+            "countryCode": "MTQ",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2146,
+            "name": "Mauritania",
+            "countryCode": "MTN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2147,
+            "name": "Mauritius",
+            "countryCode": "MRI",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2148,
+            "name": "Mayotte",
+            "countryCode": "MYT",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2149,
+            "name": "Mexico",
+            "countryCode": "MEX",
+            "flag": "https://crests.football-data.org/mexico.svg",
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2150,
+            "name": "Micronesia",
+            "countryCode": "MIC",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2151,
+            "name": "Moldova",
+            "countryCode": "MHL",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2152,
+            "name": "Monaco",
+            "countryCode": "MCO",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2153,
+            "name": "Mongolia",
+            "countryCode": "MGL",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2154,
+            "name": "Montenegro",
+            "countryCode": "MNE",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2155,
+            "name": "Montserrat",
+            "countryCode": "MSR",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2156,
+            "name": "Morocco",
+            "countryCode": "MAR",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2157,
+            "name": "Mozambique",
+            "countryCode": "MOZ",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2158,
+            "name": "Myanmar",
+            "countryCode": "MYA",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2159,
+            "name": "N/C America",
+            "countryCode": "NCA",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2160,
+            "name": "Namibia",
+            "countryCode": "NAM",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2161,
+            "name": "Nauru",
+            "countryCode": "NAU",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2162,
+            "name": "Nepal",
+            "countryCode": "NEP",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2163,
+            "name": "Netherlands",
+            "countryCode": "NLD",
+            "flag": "https://crests.football-data.org/8601.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2164,
+            "name": "New Caledonia",
+            "countryCode": "NCL",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2165,
+            "name": "New Zealand",
+            "countryCode": "NZL",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2166,
+            "name": "NF-Board",
+            "countryCode": "NFB",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2167,
+            "name": "Nicaragua",
+            "countryCode": "NIC",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2168,
+            "name": "Niger",
+            "countryCode": "NIG",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2169,
+            "name": "Nigeria",
+            "countryCode": "NGA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2170,
+            "name": "Niue",
+            "countryCode": "NIU",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2171,
+            "name": "Northern Ireland",
+            "countryCode": "NIR",
+            "flag": "https://crests.football-data.org/829.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2172,
+            "name": "Northern Mariana Islands",
+            "countryCode": "NMI",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2173,
+            "name": "Norway",
+            "countryCode": "NOR",
+            "flag": "https://crests.football-data.org/813.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2174,
+            "name": "Occitania",
+            "countryCode": "OCC",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2175,
+            "name": "Oceania",
+            "countryCode": "OCE",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2176,
+            "name": "Oman",
+            "countryCode": "OMA",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2177,
+            "name": "Padania",
+            "countryCode": "PAD",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2178,
+            "name": "Pakistan",
+            "countryCode": "PAK",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2179,
+            "name": "Palau",
+            "countryCode": "PLA",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2180,
+            "name": "Palestine",
+            "countryCode": "PAL",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2181,
+            "name": "Panama",
+            "countryCode": "PAN",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2182,
+            "name": "Papua New Guinea",
+            "countryCode": "PNG",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2183,
+            "name": "Paraguay",
+            "countryCode": "PRY",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2184,
+            "name": "Peru",
+            "countryCode": "PER",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2185,
+            "name": "Philippines",
+            "countryCode": "PHI",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2186,
+            "name": "Poland",
+            "countryCode": "POL",
+            "flag": "https://crests.football-data.org/794.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2187,
+            "name": "Portugal",
+            "countryCode": "POR",
+            "flag": "https://crests.football-data.org/765.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2188,
+            "name": "Provence",
+            "countryCode": "PRO",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2189,
+            "name": "Puerto Rico",
+            "countryCode": "PRI",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2190,
+            "name": "Qatar",
+            "countryCode": "QAT",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2191,
+            "name": "Raetia",
+            "countryCode": "RAE",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2192,
+            "name": "Republic of Ireland",
+            "countryCode": "IRL",
+            "flag": "https://crests.football-data.org/806.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2193,
+            "name": "Reunion",
+            "countryCode": "REU",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2194,
+            "name": "Romania",
+            "countryCode": "ROU",
+            "flag": "https://crests.football-data.org/811.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2195,
+            "name": "Russia",
+            "countryCode": "RUS",
+            "flag": "https://crests.football-data.org/808.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2196,
+            "name": "Rwanda",
+            "countryCode": "RWA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2197,
+            "name": "Saint Martin",
+            "countryCode": "SMT",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2198,
+            "name": "Saint Pierre and Miquelon",
+            "countryCode": "SPM",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2199,
+            "name": "Samoa",
+            "countryCode": "WSM",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2200,
+            "name": "San Marino",
+            "countryCode": "SMR",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2201,
+            "name": "São Tomé e Príncipe",
+            "countryCode": "STP",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2202,
+            "name": "Sápmi",
+            "countryCode": "SAP",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2203,
+            "name": "Saudi Arabia",
+            "countryCode": "KSA",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2204,
+            "name": "Scotland",
+            "countryCode": "SCO",
+            "flag": "https://crests.football-data.org/814.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2205,
+            "name": "Senegal",
+            "countryCode": "SEN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2206,
+            "name": "Serbia",
+            "countryCode": "SER",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2207,
+            "name": "Serbia and Montenegro",
+            "countryCode": "SCG",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2208,
+            "name": "Seychelles",
+            "countryCode": "SEY",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2209,
+            "name": "Shetland",
+            "countryCode": "SHE",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Shetland.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2210,
+            "name": "Sierra Leone",
+            "countryCode": "SLE",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2211,
+            "name": "Singapore",
+            "countryCode": "SIN",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2212,
+            "name": "Sint Eustatius",
+            "countryCode": "SEU",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2213,
+            "name": "Sint Maarten",
+            "countryCode": "SMA",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2214,
+            "name": "Slovakia",
+            "countryCode": "SVK",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2215,
+            "name": "Slovenia",
+            "countryCode": "SVN",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2216,
+            "name": "Solomon Islands",
+            "countryCode": "SLB",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2217,
+            "name": "Somalia",
+            "countryCode": "SOM",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2218,
+            "name": "Somaliland",
+            "countryCode": "SOL",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2219,
+            "name": "South Africa",
+            "countryCode": "RSA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2220,
+            "name": "South America",
+            "countryCode": "SAM",
+            "flag": "https://crests.football-data.org/CLI.svg",
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2221,
+            "name": "South Sudan",
+            "countryCode": "SSD",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2222,
+            "name": "Southern Cameroon",
+            "countryCode": "SCM",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2223,
+            "name": "Soviet Union",
+            "countryCode": "SOV",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2224,
+            "name": "Spain",
+            "countryCode": "ESP",
+            "flag": "https://crests.football-data.org/760.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2225,
+            "name": "Sri Lanka",
+            "countryCode": "SRI",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2226,
+            "name": "St. Helena",
+            "countryCode": "STH",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2227,
+            "name": "St. Kitts and Nevis",
+            "countryCode": "SKN",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2228,
+            "name": "St. Lucia",
+            "countryCode": "STL",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2229,
+            "name": "St. Vincent and the Grenadines",
+            "countryCode": "SVG",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2230,
+            "name": "Sudan",
+            "countryCode": "SUD",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2231,
+            "name": "Suriname",
+            "countryCode": "SUR",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2232,
+            "name": "Swaziland",
+            "countryCode": "SWZ",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2233,
+            "name": "Sweden",
+            "countryCode": "SWE",
+            "flag": "https://crests.football-data.org/792.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2234,
+            "name": "Switzerland",
+            "countryCode": "CHE",
+            "flag": "https://crests.football-data.org/788.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2235,
+            "name": "Syria",
+            "countryCode": "SYR",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2236,
+            "name": "Tahiti",
+            "countryCode": "TAH",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2237,
+            "name": "Tajikistan",
+            "countryCode": "TJK",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2238,
+            "name": "Tamil Eelam",
+            "countryCode": "TEL",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2239,
+            "name": "Tanzania",
+            "countryCode": "TAN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2240,
+            "name": "Thailand",
+            "countryCode": "THA",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2241,
+            "name": "Timor-Leste",
+            "countryCode": "EAT",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2242,
+            "name": "Togo",
+            "countryCode": "TOG",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2243,
+            "name": "Tonga",
+            "countryCode": "TON",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2244,
+            "name": "TR Northern Cyprus",
+            "countryCode": "NCY",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2245,
+            "name": "Trinidad and Tobago",
+            "countryCode": "TTO",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2246,
+            "name": "Tunisia",
+            "countryCode": "TUN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2247,
+            "name": "Turkey",
+            "countryCode": "TUR",
+            "flag": "https://crests.football-data.org/803.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2248,
+            "name": "Turkmenistan",
+            "countryCode": "TKM",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2249,
+            "name": "Turks and Caicos Islands",
+            "countryCode": "TCA",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2250,
+            "name": "Tuvalu",
+            "countryCode": "TVL",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2251,
+            "name": "Two Sicilies",
+            "countryCode": "TSI",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2252,
+            "name": "Uganda",
+            "countryCode": "UGA",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2253,
+            "name": "Ukraine",
+            "countryCode": "UKR",
+            "flag": "https://crests.football-data.org/790.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2254,
+            "name": "United Arab Emirates",
+            "countryCode": "UAE",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2255,
+            "name": "United Kingdom",
+            "countryCode": "UK",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2256,
+            "name": "United States",
+            "countryCode": "USA",
+            "flag": "https://crests.football-data.org/usa.svg",
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2257,
+            "name": "Uruguay",
+            "countryCode": "URY",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2258,
+            "name": "US Virgin Islands",
+            "countryCode": "USV",
+            "flag": null,
+            "parentAreaId": 2159,
+            "parentArea": "N/C America"
+        },
+        {
+            "id": 2259,
+            "name": "Uzbekistan",
+            "countryCode": "UZB",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2260,
+            "name": "Vanuatu",
+            "countryCode": "VUT",
+            "flag": null,
+            "parentAreaId": 2175,
+            "parentArea": "Oceania"
+        },
+        {
+            "id": 2261,
+            "name": "Vatican City",
+            "countryCode": "VAC",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2262,
+            "name": "Venezuela",
+            "countryCode": "VEN",
+            "flag": null,
+            "parentAreaId": 2220,
+            "parentArea": "South America"
+        },
+        {
+            "id": 2263,
+            "name": "Vietnam",
+            "countryCode": "VIE",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2264,
+            "name": "Wales",
+            "countryCode": "WAL",
+            "flag": "https://crests.football-data.org/833.svg",
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2265,
+            "name": "West Indies",
+            "countryCode": "WIN",
+            "flag": null,
+            "parentAreaId": 2267,
+            "parentArea": "World"
+        },
+        {
+            "id": 2266,
+            "name": "Western Sahara",
+            "countryCode": "WSR",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2267,
+            "name": "World",
+            "countryCode": "INT",
+            "flag": null,
+            "parentAreaId": null,
+            "parentArea": null
+        },
+        {
+            "id": 2268,
+            "name": "Yemen",
+            "countryCode": "YEM",
+            "flag": null,
+            "parentAreaId": 2014,
+            "parentArea": "Asia"
+        },
+        {
+            "id": 2269,
+            "name": "Yugoslavia",
+            "countryCode": "YUG",
+            "flag": null,
+            "parentAreaId": 2077,
+            "parentArea": "Europe"
+        },
+        {
+            "id": 2270,
+            "name": "Zambia",
+            "countryCode": "ZAM",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2271,
+            "name": "Zanzibar",
+            "countryCode": "ZAN",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
+        },
+        {
+            "id": 2272,
+            "name": "Zimbabwe",
+            "countryCode": "ZIM",
+            "flag": null,
+            "parentAreaId": 2001,
+            "parentArea": "Africa"
         }
     ]
 }
